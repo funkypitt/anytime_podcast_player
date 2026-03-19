@@ -156,11 +156,15 @@ class MobileDownloadService extends DownloadService {
         if (progress.percentage == 100) {
           final filename = await resolvePath(episode);
 
-          // If we do not have a duration for this file - let's calculate it
-          if (episode.duration == 0) {
-            var mp3Info = MP3Processor.fromFile(File(filename));
+          try {
+            // If we do not have a duration for this file - let's calculate it
+            if (episode.duration == 0) {
+              var mp3Info = MP3Processor.fromFile(File(filename));
 
-            episode.duration = mp3Info.duration.inSeconds;
+              episode.duration = mp3Info.duration.inSeconds;
+            }
+          } catch (e, s) {
+            log.warning('Error processing file $filename', e, s);
           }
         }
 
