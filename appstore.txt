@@ -1,0 +1,26 @@
+[en]
+Guided audio meditations from enpleineconscience.ch.
+
+les méditations is the official mobile companion for enpleineconscience.ch. It ships a curated, pre-configured catalogue of guided meditation podcasts grouped by theme — body scan, breath, mindfulness, and more — playable in the background while your screen is off.
+
+The app is a focused fork of Anytime Podcast Player, trimmed down for guided-meditation listening: the catalogue is fixed (no iTunes / PodcastIndex search), and OPML import/export and engine pickers are removed. Just open, pick a category, press play.
+
+- Curated catalogue of guided meditations
+- Background audio playback
+- Download episodes for offline listening
+- Simple, distraction-free listening interface
+- No accounts required to browse the catalogue
+
+---
+[fr]
+Méditations guidées audio depuis enpleineconscience.ch.
+
+les méditations est le compagnon mobile officiel d'enpleineconscience.ch. L'application embarque un catalogue préconfiguré et organisé de podcasts de méditation guidée, classés par thème — bodyscan, respiration, pleine conscience, et plus encore — lisibles en arrière-plan, écran éteint.
+
+Il s'agit d'un fork concentré d'Anytime Podcast Player, ramené à l'essentiel pour l'écoute de méditations guidées : le catalogue est fixe (pas de recherche iTunes / PodcastIndex), et les options OPML et choix de moteur de recherche ont été retirées. Vous ouvrez, choisissez une catégorie, et lancez la lecture.
+
+- Catalogue de méditations guidées préselectionné
+- Lecture audio en arrière-plan
+- Téléchargement des épisodes pour écoute hors-ligne
+- Interface d'écoute simplifiée et sans distraction
+- Aucun compte requis pour parcourir le catalogue
